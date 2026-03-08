@@ -25,6 +25,9 @@ jupyter notebook LatihanML13.ipynb
 - LatihanML13.ipynb, LatihanML14.ipynb, LatihanML15a.ipynb: Core exercises
 - [Student_vers]_Statistics_and_Data_Analysis_week_9.ipynb: Stats pipeline
 
+## Tech Stack
+Python, pandas, scikit-learn, Jupyter, matplotlib/seaborn
+
 ## Example: Heart Disease Classifier
 ```python
 import pandas as pd
@@ -37,6 +40,3 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 model = RandomForestClassifier().fit(X_train, y_train)
 print(f"Accuracy: {model.score(X_test, y_test):.2f}")
-
-Tech Stack
-Python, pandas, scikit-learn, Jupyter, matplotlib/seaborn
